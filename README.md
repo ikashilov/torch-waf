@@ -33,6 +33,7 @@ Normal data:
 Attack data:
 ![title](./img/attacks.png)
 
-The model deals well with attack detection:
-Unnormal (broken) data:
+But fails to learn deep structure such as the thing that `TIME` parameter is a positive number: 
+
+Abnormal (broken structure) data:
 ![title](./img/broken.png)
